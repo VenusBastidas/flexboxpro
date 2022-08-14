@@ -1,0 +1,132 @@
+body {
+    display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+  align-content: center;
+}
+.navegation{
+    display: flex;
+    /*flex-direction por defecto: ROW*/
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.contact {
+  display: flex;
+  align-content: center;
+}
+.contact div {
+  align-content: center;
+}
+.contactstatus {
+  flex-direction: column;
+  margin: 0 15px;
+  align-self: center;
+}
+.name {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  align-content: center;
+}
+.status {
+  color: #828485;
+  align-content: center;
+  font-size: small;
+}
+
+i {
+  color: #828485;
+  align-content: center;
+  flex-direction: row;
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-self: center;
+  margin-left: 30px;
+}
+hr {
+  display: flex;
+  width: 250px;
+  margin-left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.boton {
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 30px;
+}
+button {
+  background-color: #a491d3;
+  border-color: white;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px 40px;
+}
+.contactlist {
+  display: flex;
+  flex-direction: column;
+  /*height: 100px;*/
+}
+.contactlist img{
+    height: 3rem;
+    width: auto;
+    align-content: center;
+}
+.contactlist div{
+    display: flex;
+    align-content: center;
+}
+.contactlist > div, .contact{
+    margin-left: 20px;
+    border-bottom: rgba(0, 0, 0, 0.2);
+}
+.contactlist2{
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+}
+.contact-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact-status{
+    font-size: 14px;
+}
+.hand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e8ebe4;
+    /*height: 100vh;*/
+    flex-grow: 1;
+    align-self: stretch;
+}
+.hand img{
+    display: flex;
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+}
+h1{
+    font-size: 45px;
+}
+h4{
+    font-weight:lighter;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
